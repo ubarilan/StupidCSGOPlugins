@@ -1,0 +1,18 @@
+"Phrases"
+{
+	"Self Freeze Off"
+	{
+		"#format"		"{1:s}"
+		"en"			"took Self Freeze from {1}."
+	}
+	"Self Freeze On"
+	{
+		"#format"		"{1:s}"
+		"en"			"gave Self Freeze to {1}."
+	}
+	"Self Freeze Toggle"
+	{
+		"#format"		"{1:s}"
+		"en"			"toggled Self Freeze on {1}."
+	}
+}
