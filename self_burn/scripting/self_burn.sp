@@ -50,7 +50,7 @@ public void OnPluginStart()
     
     AutoExecConfig(true, "self_burn");
     
-    RegAdminCmd("sm_self_burn", CommandBhop, BHOPFLAG);
+    RegConsoleCmd("sm_self_burn", CommandBhop);
     
     char theFolder[40];
     GetGameFolderName(theFolder, sizeof(theFolder));

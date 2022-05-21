@@ -66,7 +66,7 @@ public OnPluginStart() {
     LoadTranslations("common.phrases");
     LoadTranslations("self_freeze.phrases");
 
-    RegAdminCmd("sm_self_freeze", Command_GiveESP, ADMFLAG_CHEATS); //Give other players
+    RegConsoleCmd("sm_self_freeze", Command_GiveESP); //Give other players
 
     HookEvent("player_spawn", Event_PlayerSpawn);
     HookEvent("player_death", Event_PlayerDeath);
